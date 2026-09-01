@@ -51,6 +51,6 @@ The computational analysis was implemented using:
 
 ## Author
 
-Lukas
+Lukas Poltnig
 
 Bachelor's thesis project, 2026.
