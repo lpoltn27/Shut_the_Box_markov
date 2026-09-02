@@ -15,8 +15,6 @@ The project includes:
 - mathematical modeling of Shut the Box
 - representation of game states
 - calculation of legal moves
-- construction of transition matrices
-- analysis of absorbing states
 - calculation of probabilities and expected values
 - comparison of different playing strategies
 - determination of an optimal strategy using the Bellman principle
@@ -25,15 +23,15 @@ The project includes:
 
 The repository contains two Jupyter notebooks.
 
-### Markov Chain Model
+### Markov Chain Model - Fixed Dice
 
-The first notebook implements the Markov chain model of Shut the Box.
+The first notebook implements the Markov chain model of Shut the Box, playing with two dice and nine tiles.
 
-It contains the state space, transition probabilities and transition matrix used to analyze the stochastic behavior of the game.
+It contains the state space, transition probabilities and transition matrix used to analyze the behavior of the game following a specific strategie.
 
-### Optimal Strategy
+### Variable Dice
 
-The second notebook focuses on finding an optimal playing strategy.
+The second notebook focuses on finding an optimal playing strategy under the presumtion you can choose how many dice you want to use.
 
 Dynamic programming and the **Bellman principle** are used to determine decisions that minimize the expected remaining score.
 
